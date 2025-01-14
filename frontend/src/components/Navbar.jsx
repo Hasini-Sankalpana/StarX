@@ -12,7 +12,7 @@ function Navbar() {
   };
 
   return (
-    <nav className={`flex justify-between items-center px-5 sm:px-10 lg:px-20 py-2 fixed w-full top-0 z-50 transition-all duration-0 ${
+    <nav className={`flex justify-between items-center px-5 sm:px-10 lg:px-20 py-3 fixed w-full top-0 z-50 transition-all duration-0 ${
       menu ? 'bg-[#011222a0]' : 'bg-transparent'
     }`}>
      

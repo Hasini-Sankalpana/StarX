@@ -2,7 +2,7 @@ import React from 'react';
 
 function Hero() {
   return (
-    <div className=" min-h-screen flex justify-center items-center m-5 sm:m-10">
+    <div className=" min-h-screen flex justify-center items-center p-5 sm:p-10">
       
       <video
         className="absolute top-0 left-0 w-full h-full object-cover z-0 "
@@ -15,12 +15,12 @@ function Hero() {
      
       <div className="relative z-10 w-full max-w-10xl p-5 text-center">
        
-        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-5 font-bold text-yellow-400 font-alfaSlab">
+        <h1 className="text-3xl sm:text-3xl md:text-5xl lg:text-6xl mb-5 font-bold text-yellow-400 font-alfaSlab">
           Explore the Wonders of the Universe
         </h1>
         
        
-        <p className="text-sm sm:text-base md:text-lg lg:text- mb-10 text-white mx-auto max-w-3xl">
+        <p className="text-sm sm:text-base md:text-lg lg:text-md mb-10 text-white mx-auto max-w-3xl">
           Embark on a cosmic journey through daily space images, exciting space news, and incredible discoveries. 
           From the latest space missions to breathtaking astronomy pictures, StarX brings the universe to your fingertips. 
           Join us and start exploring the mysteries of space today!
