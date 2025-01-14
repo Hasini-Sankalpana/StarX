@@ -9,6 +9,7 @@ export default {
       fontFamily: {
         lemon: ['Lemon', 'serif'],
         alfaSlab: ['"Alfa Slab One"', 'serif'],
+        roboto: ['Roboto', 'serif'],
         
       },
       
