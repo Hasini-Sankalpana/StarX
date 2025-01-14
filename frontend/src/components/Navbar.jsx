@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import {SignedIn, SignedOut, UserButton} from '@clerk/clerk-react';
 
 function Navbar() {
   const [menu, setMenu] = useState(false);
@@ -74,7 +75,11 @@ function Navbar() {
           </li>
         </ul>
 
-        
+        <SignedIn>
+              <UserButton />
+            </SignedIn>
+            <SignedOut>
+            <a href="/sign-in">
         <button
           className="hidden md:flex group items-center justify-start w-7 h-7 bg-white rounded-full cursor-pointer relative overflow-hidden transition-all duration-200 shadow-lg hover:w-32 hover:rounded-lg active:translate-x-1 active:translate-y-1"
         >
@@ -84,9 +89,11 @@ function Navbar() {
             </svg>
           </div>
           <div className="absolute right-7 transform translate-x-full opacity-0 text-black text-sm font-roboto transition-all duration-300 group-hover:translate-x-0 group-hover:opacity-100">
-            Sign Up
+            Sign In
           </div>
         </button>
+        </a>
+        </SignedOut>
       </div>
 
      

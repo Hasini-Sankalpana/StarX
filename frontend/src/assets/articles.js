@@ -50,7 +50,7 @@ const articles = [
   },
   {
     id: 4,
-    title: 'The Solar System',
+    title: 'Solar System',
     videourl: '/solarsystem.mp4',
     description:
       `The Solar System is an incredibly diverse and fascinating system of celestial bodies, all held together by the Sun’s gravitational pull. The Sun, a massive star located at the center of the system, contains more than 99% of the Solar System's mass and serves as the primary source of energy and warmth for the planets and other objects that orbit it. The planets, moons, asteroids, comets, and other objects in the Solar System form an intricate dance around the Sun, each with its own unique characteristics.
