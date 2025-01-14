@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 function Navbar() {
   const [menu, setMenu] = useState(false);
+  const [scrolling, setScrolling] = useState(false);
 
   const toggleMenu = () => {
     setMenu(!menu);
@@ -11,44 +12,63 @@ function Navbar() {
     setMenu(false);
   };
 
+  const handleScroll = () => {
+    if (window.scrollY > 0) {
+      setScrolling(true); 
+    } else {
+      setScrolling(false); 
+    }
+  };
+
+  useEffect(() => {
+    
+    window.addEventListener('scroll', handleScroll);
+
+   
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+
   return (
-    <nav className={`flex justify-between items-center px-5 sm:px-10 lg:px-20 py-3 fixed w-full top-0 z-50 transition-all duration-0 ${
-      menu ? 'bg-[#011222a0]' : 'bg-transparent'
+    <nav className={`flex justify-between items-center px-5 sm:px-10 lg:px-20 py-3 fixed w-full top-0 z-40 transition-all duration-300 ${
+      scrolling ? 'bg-[#010407a8]' : 'bg-transparent'
     }`}>
      
       <div className="text-2xl font-lemon text-slate-100">
-        <h1>StarX</h1>
+        <a href="/"><h1 className='text-[#a13af0]'>StarX</h1></a>
       </div>
 
      
       <div
         className={`navbar-links ${
           menu ? 'flex' : 'hidden'
-        } flex-col md:flex md:flex-row md:gap-8 text-lg text-slate-200 font-roboto bg-[#011222a0] md:bg-transparent absolute md:relative top-12 left-0 md:top-0 md:left-auto w-full md:w-auto z-50 md:justify-between md:items-center p-5 md:p-0`}
+        } flex-col md:flex md:flex-row md:gap-8 text-lg text-slate-200 font-roboto bg-[#010407a8] md:bg-transparent absolute md:relative top-14 left-0 md:top-0 md:left-auto w-full md:w-auto z-50 md:justify-between md:items-center p-5 md:p-0`}
       >
         <ul className="flex flex-col md:flex-row md:gap-8 items-center w-full md:w-auto text-center">
           <li>
-            <a href="#home" onClick={closeMenu} className="hover:text-slate-300">
+            <a href="/#hero" onClick={closeMenu} className="hover:text-slate-300">
               Home
             </a>
           </li>
           <li>
-            <a href="#blogs" onClick={closeMenu} className="hover:text-slate-300">
+            <a href="/#blogs" onClick={closeMenu} className="hover:text-slate-300">
               Blogs
             </a>
           </li>
           <li>
-            <a href="#news" onClick={closeMenu} className="hover:text-slate-300">
+            <a href="/#news" onClick={closeMenu} className="hover:text-slate-300">
               News
             </a>
           </li>
           <li>
-            <a href="#quiz" onClick={closeMenu} className="hover:text-slate-300">
+            <a href="/#quiz" onClick={closeMenu} className="hover:text-slate-300">
               Quizzes
             </a>
           </li>
           <li>
-            <a href="#contact" onClick={closeMenu} className="hover:text-slate-300">
+            <a href="/#contact" onClick={closeMenu} className="hover:text-slate-300">
               Contact
             </a>
           </li>
