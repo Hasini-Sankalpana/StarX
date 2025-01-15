@@ -57,7 +57,7 @@ function Navbar() {
           </li>
           <li>
             <a href="/#blogs" onClick={closeMenu} className="hover:text-slate-300">
-              Blogs
+              Articles
             </a>
           </li>
           <li>
@@ -71,8 +71,8 @@ function Navbar() {
             </a>
           </li>
           <li>
-            <a href="/#contact" onClick={closeMenu} className="hover:text-slate-300">
-              Contact
+            <a href="/#gallery" onClick={closeMenu} className="hover:text-slate-300">
+              Gallery
             </a>
           </li>
         </ul>

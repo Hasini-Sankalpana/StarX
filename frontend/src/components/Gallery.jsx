@@ -38,13 +38,13 @@ function Gallery() {
     setVisibleCount(12); 
   };
 
-  // Show more images
+  
   const handleShowMore = () => {
     setVisibleCount((prevCount) => prevCount + 12); 
   };
 
   return (
-    <div className="gallery-container py-10 px-5 md:px-20 sm:px-14 min-h-screen flex flex-col justify-center items-center">
+    <div className="gallery-container py-10 px-5 md:px-20 sm:px-14 min-h-screen flex flex-col justify-center items-center" id='gallery'>
       <h2 className="text-white text-4xl font-bold text-center pt-10 pb-10 mb-10 uppercase font-roboto tracking-wide">
         <span className='font-lemon font-extralight text-purple-600'>StarX</span> Gallery
       </h2>

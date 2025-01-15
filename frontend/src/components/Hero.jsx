@@ -29,7 +29,7 @@ function Hero() {
       
         <div className="hero-btn">
           <button className="border-purple-600  border-2 rounded-lg py-2 px-6 sm:px-10 font-semibold text-white hover:scale-105 transition-transform">
-            Start Exploring
+           <a href="#news"> Start Exploring</a>
           </button>
         </div>
       </div>
