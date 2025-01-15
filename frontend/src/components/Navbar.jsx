@@ -75,8 +75,9 @@ function Navbar() {
             </a>
           </li>
         </ul>
+        </div>
 
-        <SignedIn>
+      {/*   <SignedIn>
               <UserButton />
             </SignedIn>
             <SignedOut>
@@ -95,7 +96,7 @@ function Navbar() {
         </button>
         </a>
         </SignedOut>
-      </div>
+      */}
 
      
       <div className="md:hidden">
