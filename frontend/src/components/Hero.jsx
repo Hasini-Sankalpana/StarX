@@ -2,7 +2,7 @@ import React from 'react';
 
 function Hero() {
   return (
-    <div className="min-h-screen flex justify-center items-center p-5 sm:p-10" id='hero'>
+    <div className="min-h-screen flex justify-center items-center p-5 " id='hero'>
       
       <video
         className="absolute top-0 left-0 w-full h-full object-cover z-0 "
