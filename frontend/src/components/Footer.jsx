@@ -4,7 +4,7 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#16051f] text-white py-8 mt-10 font-roboto">
+    <footer className="bg-[#16051f] text-white py-8 mt-10 font-roboto" id="footer">
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
         <h3 className="text-3xl text-center mb-6 font-zen-dots font-extralight text-purple-600">
           StarX

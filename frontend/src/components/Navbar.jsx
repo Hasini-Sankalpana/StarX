@@ -47,32 +47,37 @@ function Navbar() {
       <div
         className={`navbar-links ${
           menu ? 'flex' : 'hidden'
-        } flex-col md:flex md:flex-row md:gap-8 text-lg text-slate-200 font-roboto bg-[#010407a8] md:bg-transparent absolute md:relative top-14 left-0 md:top-0 md:left-auto w-full md:w-auto z-50 md:justify-between md:items-center p-5 md:p-0`}
+        } flex-col md:flex md:flex-row md:gap-8 text-[18px] text-slate-300 font-roboto bg-[#010407a8] md:bg-transparent absolute md:relative top-14 left-0 md:top-0 md:left-auto w-full md:w-auto z-50 md:justify-between md:items-center p-5 md:p-0`}
       >
         <ul className="flex flex-col md:flex-row md:gap-8 items-center w-full md:w-auto text-center">
           <li>
-            <a href="/#hero" onClick={closeMenu} className="hover:text-slate-300">
+            <a href="/#hero" onClick={closeMenu} className="hover:text-[#8733b1]">
               Home
             </a>
           </li>
           <li>
-            <a href="/#blogs" onClick={closeMenu} className="hover:text-slate-300">
+            <a href="/#blogs" onClick={closeMenu} className="hover:text-[#8733b1]">
               Articles
             </a>
           </li>
           <li>
-            <a href="/#news" onClick={closeMenu} className="hover:text-slate-300">
+            <a href="/#news" onClick={closeMenu} className="hover:text-[#8733b1]">
               News
             </a>
           </li>
           <li>
-            <a href="/#quiz" onClick={closeMenu} className="hover:text-slate-300">
+            <a href="/#quiz" onClick={closeMenu} className="hover:text-[#8733b1]">
               Quizzes
             </a>
           </li>
           <li>
-            <a href="/#gallery" onClick={closeMenu} className="hover:text-slate-300">
+            <a href="/#gallery" onClick={closeMenu} className="hover:text-[#8733b1]">
               Gallery
+            </a>
+          </li>
+          <li>
+            <a href="/#footer" onClick={closeMenu} className="hover:text-[#8733b1]">
+              Contact
             </a>
           </li>
         </ul>
