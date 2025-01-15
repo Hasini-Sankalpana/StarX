@@ -45,7 +45,7 @@ const Footer = () => {
           </a>
         </div>
         <p className="text-center text-sm opacity-70">
-          © 2025 StartX. All rights Reserved.
+          © 2025 StarX. All rights Reserved.
         </p>
       </div>
     </footer>
