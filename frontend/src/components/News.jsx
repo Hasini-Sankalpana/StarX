@@ -50,11 +50,11 @@ function NewsSection() {
   };
 
   if (loading) {
-    return <div className="text-center text-gray-600">Loading news...</div>;
+    return <div className="text-center text-gray-600 bg-[#0d0413]">Loading news...</div>;
   }
 
   if (error) {
-    return <div className="text-center text-red-500">Error: {error}</div>;
+    return <div className="text-center text-red-500 bg-[#0d0413]">Error: {error}</div>;
   }
 
   return (
