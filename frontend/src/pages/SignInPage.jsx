@@ -1,5 +1,6 @@
 import React from 'react';
 import { SignIn } from '@clerk/clerk-react';
+import { dark } from '@clerk/themes';
 
 const SignInPage = () => {
   return (
