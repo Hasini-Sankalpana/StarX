@@ -35,7 +35,7 @@ function Quiz() {
         <div className="flex flex-col items-center w-full lg:w-[80%] xl:w-[70%] gap-10"> 
           {currentIndex < currentQuestions.length ? (
             <div className="bg-[#2d0c3fb4] p-10 rounded-lg shadow-lg mb-10 w-full max-w-4xl">
-              <h3 className="text-white text-2xl mb-14">{currentQuestions[currentIndex].question}</h3>
+              <h3 className="text-white text-2xl mb-14">{currentIndex + 1}. {currentQuestions[currentIndex].question}</h3>
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-10"> 
                 {currentQuestions[currentIndex].options.map((option, i) => (
                   <button
