@@ -35,8 +35,9 @@ function Navbar() {
 
   return (
     <nav className={`flex justify-between items-center px-5 sm:px-10 lg:px-20 py-3 fixed w-full top-0 z-40 transition-all duration-300 ${
-      scrolling ? 'bg-[#010407a8]' : 'bg-transparent sm:bg-[#010407a8]'
+      scrolling ? 'bg-[#010407a8]' : 'bg-[#010407a8] sm:bg-transparent'
     }`}>
+  
      
       <div className="text-2xl font-lemon text-slate-100">
         <a href="/"><h1 className='text-[#a13af0]'>StarX</h1></a>
