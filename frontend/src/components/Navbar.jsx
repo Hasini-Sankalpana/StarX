@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import {SignedIn, SignedOut, UserButton} from '@clerk/clerk-react';
+import {dark} from  '@clerk/themes';
 
 function Navbar() {
   const [menu, setMenu] = useState(false);
@@ -34,7 +35,7 @@ function Navbar() {
 
   return (
     <nav className={`flex justify-between items-center px-5 sm:px-10 lg:px-20 py-3 fixed w-full top-0 z-40 transition-all duration-300 ${
-      scrolling ? 'bg-[#010407a8]' : 'bg-transparent'
+      scrolling ? 'bg-[#010407a8]' : 'bg-transparent sm:bg-[#010407a8]'
     }`}>
      
       <div className="text-2xl font-lemon text-slate-100">

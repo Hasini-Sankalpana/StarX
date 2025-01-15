@@ -4,7 +4,9 @@ import { SignIn } from '@clerk/clerk-react';
 const SignInPage = () => {
   return (
     <div className="flex items-center justify-center h-screen bg-black">
-      <SignIn />
+      <SignIn  appearance={{
+      baseTheme: dark,
+    }} />
     </div>
   );
 };

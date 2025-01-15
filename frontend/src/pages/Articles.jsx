@@ -1,10 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import articles from '../assets/articles';
 
 function Articles() {
   const { id } = useParams();
   const article = articles.find((post) => post.id === parseInt(id));
+
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   if (!article) {
     return <div>Article not found</div>;

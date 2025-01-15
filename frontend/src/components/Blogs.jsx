@@ -11,7 +11,7 @@ function Blogs() {
   };
 
   return (
-    <div className="items-center min-h-screen bg-[#0d0413] sm:pb-10 lg:px-20" id='blogs'>
+    <div className="items-center min-h-10 bg-[#0d0413] sm:pb-10 lg:px-20 pb-0" id='blogs'>
       <h1 className="text-white text-4xl font-bold text-center pt-20 mb-20 uppercase font-roboto">Articles</h1>
       <div className="flex justify-center items-center flex-wrap gap-4">
         {articles.map((article) => (
