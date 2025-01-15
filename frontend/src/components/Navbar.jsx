@@ -39,8 +39,8 @@ function Navbar() {
     }`}>
   
      
-      <div className="text-2xl font-lemon text-slate-100">
-        <a href="/"><h1 className='text-[#a13af0]'>StarX</h1></a>
+      <div className="text-2xl font-zen-dots text-slate-100">
+        <a href="/"><h1 className='text-[#d23af0]'>StarX</h1></a>
       </div>
 
      

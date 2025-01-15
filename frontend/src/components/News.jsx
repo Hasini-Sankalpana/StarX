@@ -60,7 +60,7 @@ function NewsSection() {
   return (
     <div className="bg-[#0d0413] py-10 px-5 md:px-20 sm:px-14" id="news">
       <h2 className="text-white text-4xl font-bold text-center pt-20 mb-20 uppercase font-roboto">
-        Latest <span className="font-lemon font-light text-purple-600">StarX</span> News
+        Latest <span className="font-zen-dots font-light text-purple-600">StarX</span> News
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {articles.slice(0, visibleCount).map((article) => (

@@ -29,7 +29,7 @@ function Quiz() {
   return (
     <div className="bg-[#150520] py-10 px-5 md:px-20 sm:px-14 min-h-screen flex flex-col justify-center items-center" id='quiz'>
       <h2 className="text-white text-4xl font-bold text-center pt-10 pb-20 mb-10 uppercase font-roboto tracking-wide">
-        Test Your Space Knowledge!
+        Test Your Space Knowledge
       </h2>
       {score === null ? (
         <div className="flex flex-col items-center w-full lg:w-[80%] xl:w-[70%] gap-10"> 

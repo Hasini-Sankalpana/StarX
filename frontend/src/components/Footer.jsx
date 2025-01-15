@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="bg-[#16051f] text-white py-8 mt-10 font-roboto">
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h3 className="text-3xl text-center mb-6 font-lemon font-extralight text-purple-600">
+        <h3 className="text-3xl text-center mb-6 font-zen-dots font-extralight text-purple-600">
           StarX
         </h3>
         <nav className="flex flex-wrap justify-center space-x-6 mb-6">

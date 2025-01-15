@@ -10,6 +10,9 @@ export default {
         lemon: ['Lemon', 'serif'],
         alfaSlab: ['"Alfa Slab One"', 'serif'],
         roboto: ['Roboto', 'serif'],
+        righteous: ['Righteous', 'cursive'], 
+        'zen-dots': ['Zen Dots', 'sans-serif'],
+
         
       },
       

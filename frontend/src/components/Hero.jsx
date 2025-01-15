@@ -15,9 +15,10 @@ function Hero() {
      
       <div className="relative z-10 w-full max-w-10xl p-5 pt-20 text-center">
        
-        <h1 className="text-3xl sm:text-3xl md:text-5xl lg:text-6xl mb-5 font-normal text-slate-200 font-alfaSlab">
-          Explore the Wonders of the Universe
-        </h1>
+      <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-pink-500 to-purple-700 text-center mb-5 font-righteous">
+  Explore the Wonders of the Universe
+</h1>
+
         
        
         <p className="text-sm sm:text-base md:text-lg lg:text-md mb-10 text-white mx-auto max-w-3xl">
@@ -28,7 +29,7 @@ function Hero() {
         
       
         <div className="hero-btn">
-          <button className="border-purple-600  border-2 rounded-lg py-2 px-6 sm:px-10 font-semibold text-white hover:scale-105 transition-transform">
+          <button className="border-[#841995]  border-2 rounded-lg py-2 px-6 sm:px-10 font-semibold text-white hover:scale-105 transition-transform">
            <a href="#news"> Start Exploring</a>
           </button>
         </div>
