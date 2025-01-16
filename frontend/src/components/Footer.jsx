@@ -19,7 +19,7 @@ const Footer = () => {
           <a href="#news" className="hover:text-[#9333ea] mb-2 sm:mb-0">
             News
           </a>
-          <a href="#quize" className="hover:text-[#9333ea] mb-2 sm:mb-0">
+          <a href="#quiz" className="hover:text-[#9333ea] mb-2 sm:mb-0">
             Quizzes
           </a>
           <a href="#gallery" className="hover:text-[#9333ea] mb-2 sm:mb-0">
